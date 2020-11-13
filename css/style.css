@@ -1,0 +1,90 @@
+
+
+/*
+#59A6C9
+*/
+
+.txt-color
+{
+    color: #4D4D4D;
+}
+.font-weight-600
+{
+    font-weight: 600;
+}
+.font-weight-900
+{
+    font-weight: 900;
+}
+.main-color
+{
+    color: #59A6C9;
+}
+
+
+
+.plans-section .inner-box
+{
+    background-color: #f5f8fb;
+    box-shadow: 0px 10px 10px -3px rgba(89, 165, 201, 0.233);
+}
+
+.plans-section .btn
+{
+    width: 30px;
+    height: 30px;
+    color: #59A6C9;
+    border: 1px solid #59A6C9;
+    transition: .2s;
+    font-size: 1.5rem;
+}
+.plans-section .btn .inner-txt
+{
+    transform: translateY(-5%);
+}
+.plans-section .btn:hover
+{
+    background-color: #59A6C9;
+    color: #d7f0fc;
+    box-shadow: 0px 4px 10px -3px #59A6C9;
+}
+.plans-section .num-txt
+{
+    font-size: 1.5rem;
+}
+.plans-section .d-box::after
+{
+    content: "";
+    width: .1rem;
+    height: 100%;
+    background-color: #59A6C9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: .5;
+}
+.plans-section .right-section .currency
+{
+    font-size: 1.5rem;
+} 
+.plans-section .right-section .price-num 
+{
+    font-size: 3rem;
+}
+.plans-section .right-section .hint .currency
+{
+    font-size: 1rem;
+} 
+
+.plans-section .select-box:focus
+{
+    outline: none;
+}
+.plans-section .select-box
+{
+    border: 2px solid #59a6c9;
+    color: #59a6c9;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}

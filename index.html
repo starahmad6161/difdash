@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="css/libs/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="plans-section py-5">
+        <div class="container">
+            <h2 class="font-weight-bold mb-5 txt-color text-center">Build your plan</h2>
+            <div class="inner-box px-5 py-5 rounded-lg">
+                <div class="dashboard">
+                    <div class="row">
+                        <div class="col-md-6 d-box position-relative">
+                            <h3 class="text-uppercase h4 text-center txt-color font-weight-600">Start line package</h3>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="btn decrease p-0 rounded-circle font-weight-bold d-flex align-items-center justify-content-center" id="btn-decrease">
+                                    <span class="inner-txt">-</span>
+                                </div>
+                                <span class="font-weight-bold mx-3 txt-color num-txt" id="dashboards-count">2</span>
+                                <div class="btn increase p-0 rounded-circle font-weight-bold d-flex align-items-center justify-content-center" id="btn-increase">
+                                    <span class="inner-txt">+</span>
+                                </div>
+                            </div>
+                            <div class="text-center txt-color">dashboards</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="right-section">
+                                <h3 class="h4 text-center txt-color font-weight-600">Total monthly price:</h3>
+                                <div class="font-weight-bold main-color text-center">
+                                    <sub class="currency" id="currency-symbol">£</sub>
+                                    <span class="price-num font-weight-900">59</span>
+                                </div>
+                                <div class="hint text-center main-color">
+                                    (<span class="font-weight-bold"><span class="currency">£</span>30</span>
+                                    per dashboard)
+                                </div>
+                                <div class="text-center mt-2">
+                                    <select class="select-box" id="currency-selectbox" aria-label="Example select with button addon">
+                                        <option value="$">USD</option>
+                                        <option value="£" selected>GVP</option>
+                                        <option value="€">EUR</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="js/libs/jquery-3.3.1.min.js"></script>
+    <script src="js/libs/popper.min.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/libs/all.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+</body>
+
+</html>
